@@ -10,7 +10,7 @@ def lambda_handler(event, context):
         'SlaveInstanceType': 'm3.xlarge',
         'InstanceCount': 2,
         'InstanceGroups': [],
-        'Ec2KeyName': 'spark',
+        'Ec2KeyName': 'test',
         'KeepJobFlowAliveWhenNoSteps': True,
         'TerminationProtected': False,
         'Ec2SubnetId': 'subnet-076d7361',
